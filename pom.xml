@@ -10,17 +10,17 @@
     </prerequisites>
 
     <groupId>com.raysoft.micro</groupId>
-    <artifactId>FirstTrial</artifactId>
+    <artifactId>microservicesjavakit</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>TrialMain</name>
+    <name>microservices-java-kit</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <dropwizard.version>1.0.3</dropwizard.version>
-        <mainClass>com.raysoft.micro.TrialMainApplication</mainClass>
+        <mainClass>com.raysoft.micro.KitMainApplication</mainClass>
     </properties>
 
     <dependencyManagement>

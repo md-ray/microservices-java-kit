@@ -5,7 +5,7 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class KitMainApplication extends Application<TrialMainConfiguration> {
+public class KitMainApplication extends Application<KitMainConfiguration> {
 
     public static void main(final String[] args) throws Exception {
         new KitMainApplication().run(args);
@@ -13,16 +13,16 @@ public class KitMainApplication extends Application<TrialMainConfiguration> {
 
     @Override
     public String getName() {
-        return "TrialMain";
+        return "KitMainApplication";
     }
 
     @Override
-    public void initialize(final Bootstrap<TrialMainConfiguration> bootstrap) {
+    public void initialize(final Bootstrap<KitMainConfiguration> bootstrap) {
         // TODO: application initialization
     }
 
     @Override
-    public void run(final TrialMainConfiguration configuration,
+    public void run(final KitMainConfiguration configuration,
                     final Environment environment) {
         environment.jersey().register(new HaloResource());
     }

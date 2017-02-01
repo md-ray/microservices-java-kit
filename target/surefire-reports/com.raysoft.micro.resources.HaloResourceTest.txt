@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.raysoft.micro.resources.HaloResourceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.714 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.154 sec
