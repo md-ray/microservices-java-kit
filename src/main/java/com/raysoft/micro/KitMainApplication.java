@@ -5,10 +5,10 @@ import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
-public class TrialMainApplication extends Application<TrialMainConfiguration> {
+public class KitMainApplication extends Application<TrialMainConfiguration> {
 
     public static void main(final String[] args) throws Exception {
-        new TrialMainApplication().run(args);
+        new KitMainApplication().run(args);
     }
 
     @Override
